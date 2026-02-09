@@ -1,0 +1,1 @@
+#include<bits/stdc++.h>using namespace std;int main() {    ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);    int N, T, A; cin >> N >> T >> A;    if(abs(T-A)>abs(N-T-A)) cout << "Yes";    else cout << "No";}
